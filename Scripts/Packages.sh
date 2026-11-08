@@ -71,6 +71,7 @@ UPDATE_PACKAGE() {
 
 # 默认主题：aurora（Settings.sh 里的 WRT_THEME=aurora 要与之对应）
 UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
+UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac"
 #UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 # Default UI: the same theme the upstream firmware now ships (vantage).
 # Pinned to the tag our dashboard patch is verified against: `main` gained
