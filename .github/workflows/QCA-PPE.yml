@@ -55,7 +55,7 @@ jobs:
     uses: ./.github/workflows/WRT-CORE.yml
     with:
       WRT_CONFIG: ${{ matrix.CONFIG }}
-      WRT_THEME: vantage
+      WRT_THEME: aurora
       WRT_NAME: Levie
       WRT_SSID: ATHEROS
       WRT_WORD: 12345678
