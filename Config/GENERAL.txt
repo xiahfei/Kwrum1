@@ -28,7 +28,7 @@ CONFIG_PACKAGE_router-acl=y
 # router-acl 建的 clsact（handle ffff:）互不干扰，所以 ACL(90)/dpd(100) 的过滤器链照旧。
 # 下载方向故意不做：需要 IFB，而 mirror 根本不延迟真实包、redirect 又会
 # 掐断 ACL/dpd 或改掉 fw4 匹配 zone 用的 iifname（实测见 router-qos.sh 头注释）。
-CONFIG_PACKAGE_router-qos=y
+CONFIG_PACKAGE_router-qos=n
 # --- ebpf 性能档位：首启按 CPU/内存/网卡自动定档 ---
 # 住在 ebpf/router-tuning/，纯脚本包，由 Packages.sh 一起拷进 package/ebpf/。
 # 它把「只能靠包选择做」的两条一起带上（Makefile 的 DEPENDS）：
