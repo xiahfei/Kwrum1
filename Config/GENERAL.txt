@@ -1,4 +1,3 @@
-GE
 # Honk 透明代理核心 + LuCI/Doona
 CONFIG_PACKAGE_honk=n
 CONFIG_PACKAGE_luci-app-honk=n
