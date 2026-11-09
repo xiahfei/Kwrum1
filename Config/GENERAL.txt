@@ -1,5 +1,5 @@
 # Honk 透明代理核心 + LuCI/Doona
-CONFIG_PACKAGE_honk=n
+CONFIG_PACKAGE_honk=y
 CONFIG_PACKAGE_luci-app-honk=n
 # --- ebpf 数据面（#18）：TC ingress eBPF 快路径 ---
 # 包不在任何 feed 里。**唯一**的归属地是本仓库的 ebpf/router-dataplane/，
